@@ -2,14 +2,14 @@ import { useState } from 'react'
 import Navbar from './components/Navbar'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [Task, setTask] = useState([])
+  const [Tasks , setTasks] = useState(``)
 
-let task = []
 
-let handle_task = (task) =>{
- 
-
-  
+const handle_task = () =>{
+   if(tasks.trim() !== ""){
+   
+   }
 }
 
 
